@@ -20,6 +20,6 @@ cognomi.sort();
     document.getElementById('cognomi-utenti').innerHTML += '<li>' + cognomi[i] + '</li>';
 }
 // Scrivere la posizione della lista in cui il cognome si trova.
-var posizione = cognomi.indexOf(Cognome) + 1 );
+var posizione = cognomi.indexOf(Cognome) + 1;
 document.getElementById('Posizione').innerHTML = "Posizione numero" + posizione + "dell'elenco");
 
