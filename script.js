@@ -13,7 +13,7 @@ cognomi.push(Cognome);
 // ordinare la lista
 cognomi.sort();
 
-// console.log(cognomi);
+console.log(cognomi);
 
 // stampare la lista ordinata in ordine alfabetico (in html ul > li).
     for(var i = 0; i < cognomi.length; i++) {
